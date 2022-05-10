@@ -26,7 +26,7 @@ public class OrangeHRM extends BaseClass {
 	  driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 	  driver.findElement(By.id("btnLogin")).click();
 	        String actualTitle=driver.getTitle();
-	        String expectedTitle="OrangeHRM";
+	        String expectedTitle="OrangeHR";
 	        Assert.assertEquals(actualTitle, expectedTitle);
 	 }
 	 
